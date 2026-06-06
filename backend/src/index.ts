@@ -12,7 +12,7 @@ const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/miniHelpDe
 
 // ── Middleware ──────────────────────────────
 app.use(cors({
-  origin: 'http://localhost:5173', // Vite default port
+  origin: '*',
   methods: ['GET', 'POST', 'DELETE'],
   allowedHeaders: ['Content-Type'],
 }));
