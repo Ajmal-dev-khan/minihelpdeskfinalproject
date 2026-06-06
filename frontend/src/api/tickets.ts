@@ -6,7 +6,7 @@ import {
   LimitOption,
 } from '../types/ticket';
 
-const BASE_URL = 'https://minihelpdeskfinalproject-production.up.railway.app/tickets';
+const BASE_URL = 'https://minihelpdeskfinalproject-production-7359.up.railway.app/tickets';
 
 // ── GET /tickets?limit=5|10|20 ────────────────────────
 // PRODUCT FEATURE: Limit Items by Number
