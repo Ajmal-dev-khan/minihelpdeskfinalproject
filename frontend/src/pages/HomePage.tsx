@@ -23,7 +23,7 @@ export default function HomePage({ onSuccess, onError }: Props) {
   // Stats for the dashboard bar
   const highCount     = tickets.filter((t: Ticket) => t.priority === 'High').length;
   const openCount     = tickets.filter((t: Ticket) => t.status === 'Open').length;
-  const _closedCount  = tickets.filter((t: Ticket) => t.status === 'Closed').length;
+  const _closedCount = tickets.filter((t: Ticket) => t.status === 'Closed').length;
 
   return (
     <>
