@@ -167,7 +167,7 @@ NODE_ENV=development
 
 ---
 
-## 🏆 Full Marks Checklist
+
 
 - [x] React + TypeScript frontend
 - [x] Express + TypeScript backend
@@ -198,5 +198,5 @@ NODE_ENV=development
 ## 📝 Notes
 
 - Update/Edit is NOT implemented (not required per project spec)
-- The bonus authentication task is not included
+- The bonus authentication task is included
 - All commits are meaningful and track development progress
