@@ -6,8 +6,7 @@ import {
   LimitOption,
 } from '../types/ticket';
 
-const BASE_URL = 'http://localhost:5000/tickets';
-
+const BASE_URL = 'https://minihelpdeskfinalproject-production-7359.up.railway.app/tickets';
 // ── GET /tickets?limit=5|10|20 ────────────────────────
 // PRODUCT FEATURE: Limit Items by Number
 export const fetchTickets = async (limit: LimitOption): Promise<TicketsResponse> => {
